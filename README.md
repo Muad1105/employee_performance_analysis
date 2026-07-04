@@ -1,4 +1,4 @@
-# employee_performance_analysis_practice
+# employee_performance_analysis
 
 $# I Hereby create an employee performance analysis project
 -- The empoyee_id, department, training, performance, awards won, etc been mentoined and the employees been analysed.
