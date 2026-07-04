@@ -28,7 +28,6 @@ Repository Contents
 |-- Analysis_Queries.sql            # SQL analysis: department/region rankings, KPI tiers, CTEs
 |-- employee_analysis.ipynb         # Python EDA, hypothesis testing & logistic regression
 |-- employee_data_PowerBI.pbix      # Interactive Power BI dashboard
-|-- README.md
 
 Methodology
 
