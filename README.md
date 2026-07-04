@@ -3,3 +3,12 @@
 $# I Hereby create an employee performance analysis project
 -- The empoyee_id, department, training, performance, awards won, etc been mentoined and the employees been analysed.
 -- The key factor attrition probability is taken into acccount and analysed the retention.
+
+SQL-
+-- Select the file path to the relative path of your system to run the queries.
+
+Jupyter Notebook -
+
+Power BI -
+
+Excel -
