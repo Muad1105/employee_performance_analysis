@@ -12,10 +12,9 @@ Dataset
 
 employees_data_cleaned.csv — 16,052 rows, 13 columns:
 
-ColumnDescriptionemployee_idUnique employee identifierdepartmentDepartment (Sales & Marketing, Operations, Technology, Analytics, etc.)regionRecruitment regioneducationHighest qualification (Bachelors, Masters & above)genderEmployee genderrecruitment_channelHow the employee was hired (sourcing, other, referral)no_of_trainingsNumber of trainings completedageEmployee ageprevious_year_ratingPrior year performance rating (1–5)length_of_serviceTenure in yearsKPIs_met_more_than_80Whether the employee met >80% of KPIs (1/0)awards_wonWhether the employee won an award (1/0)avg_training_scoreAverage score across trainings
+Column Description employee_id (Unique employee identifier) department Department (Sales & Marketing, Operations, Technology, Analytics, etc.), region - Recruitment region, education - Highest qualification ('Bachelors', 'Masters & above', 'No Data', 'Below Secondary'),gender - Employee gender, recruitment_channel - How the employee was hired (sourcing, other, referral), no_of_trainings - Number of trainings completed, age - Employee age, previous_year_rating - Prior year performance rating (1–5), length_of_service - Tenure in years, KPIs_met_more_than_80 - Whether the employee met > 80% of KPIs (1/0), awards_won - Whether the employee won an award (1/0), avg_training_score - Average score across trainings
 
 Tech Stack
-
 
 Excel — initial data cleaning and validation
 SQL (MySQL) — data loading, aggregation, and window-function analysis
@@ -25,11 +24,11 @@ Power BI — interactive dashboard with DAX measures for stakeholder reporting
 
 Repository Contents
 
-├── employees_data_cleaned.csv      # Cleaned dataset (input for SQL & Python)
-├── Analysis_Queries.sql            # SQL analysis: department/region rankings, KPI tiers, CTEs
-├── employee_analysis.ipynb         # Python EDA, hypothesis testing & logistic regression
-├── employee_data_PowerBI.pbix      # Interactive Power BI dashboard
-└── README.md
+|-- employees_data_cleaned.csv      # Cleaned dataset (input for SQL & Python)
+|-- Analysis_Queries.sql            # SQL analysis: department/region rankings, KPI tiers, CTEs
+|-- employee_analysis.ipynb         # Python EDA, hypothesis testing & logistic regression
+|-- employee_data_PowerBI.pbix      # Interactive Power BI dashboard
+|-- README.md
 
 Methodology
 
